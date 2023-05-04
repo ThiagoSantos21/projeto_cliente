@@ -1,6 +1,18 @@
-import 'dart:ffi';
 
 class Cliente{
+
+  String nome;
+  String id;
+  String cnpj;
+  double distancia;
+  String cep;
+  String imagem;
+  int mix;
+  bool positivado;
+  int ultimaVenda;
+  bool inadimplente;
+  String nomeComprador;
+
   Cliente({
     required this.nome,
     required this.id,
@@ -14,16 +26,4 @@ class Cliente{
     required this.inadimplente,
     required this.nomeComprador
   });
-
-  final String nome;
-  final String id;
-  final String cnpj;
-  final double distancia;
-  final String cep;
-  final String imagem;
-  final int mix;
-  final bool positivado;
-  final int ultimaVenda;
-  final bool inadimplente;
-  final String nomeComprador;
 }
